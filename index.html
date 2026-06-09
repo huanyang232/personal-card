@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="踽踽行者的个人电子名片，工程师与 AI 编程博主。"
+    />
+    <title>踽踽行者 | 个人电子名片</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-theme="minimal">
+    <main class="page-shell">
+      <section class="profile-card" aria-labelledby="profile-name">
+        <div class="theme-panel" aria-label="主题切换">
+          <button class="theme-option is-active" type="button" data-theme-value="minimal">
+            <span class="theme-swatch swatch-minimal" aria-hidden="true"></span>
+            浅色极简
+          </button>
+          <button class="theme-option" type="button" data-theme-value="tech">
+            <span class="theme-swatch swatch-tech" aria-hidden="true"></span>
+            深色科技
+          </button>
+          <button class="theme-option" type="button" data-theme-value="blueprint">
+            <span class="theme-swatch swatch-blueprint" aria-hidden="true"></span>
+            蓝白工程
+          </button>
+          <button class="theme-option" type="button" data-theme-value="warm">
+            <span class="theme-swatch swatch-warm" aria-hidden="true"></span>
+            暖色玻璃
+          </button>
+        </div>
+
+        <div class="identity-grid">
+          <div class="avatar-frame" aria-label="卡通工程师头像">
+            <img src="assets/avatar-engineer.png" alt="踽踽行者的卡通工程师头像" />
+          </div>
+
+          <div class="intro">
+            <p class="eyebrow">Engineer / AI Coding Creator</p>
+            <h1 id="profile-name">踽踽行者</h1>
+            <p class="role">工程师 / AI 编程博主</p>
+            <p class="bio">
+              土建工程师，现自主创业，带团队开发了编程导航、面试鸭、鱼皮AI导航等产品。
+            </p>
+
+            <div class="link-row" aria-label="联系方式">
+              <a class="contact-link" href="https://github.com/liyupi" target="_blank" rel="noreferrer">
+                <span class="link-icon" aria-hidden="true">GH</span>
+                GitHub: liyupi
+              </a>
+              <a class="contact-link" href="https://codefather.cn" target="_blank" rel="noreferrer">
+                <span class="link-icon" aria-hidden="true">CN</span>
+                codefather.cn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-strip" aria-label="代表产品">
+          <article>
+            <span>01</span>
+            <strong>编程导航</strong>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>面试鸭</strong>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>鱼皮AI导航</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
